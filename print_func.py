@@ -5,7 +5,8 @@ import matplotlib.pyplot as mplot
 
 if( len(sys.argv)!=2):
 	print("No input parameter...")
-	print("Must input an integer.")
+	print("Usage:")
+	print("1 :: plot x")
 	sys.exit()
 
 xvar=[];yvar=[]
