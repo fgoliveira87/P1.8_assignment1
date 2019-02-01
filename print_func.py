@@ -19,22 +19,17 @@ for i in range (0,101):
 
 if (int(sys.argv[1])==1):
 	yvar=xvar
-	#print(yvar)
-	mplot.plot(xvar,yvar)
-	mplot.show()
+
 elif (int(sys.argv[1])==2):
 	yvar= [np.sin(x) for x in xvar]
-	#print(yvar)
-	mplot.plot(xvar,yvar)
-	mplot.show()
+
 elif (int(sys.argv[1])==3):
 	yvar= [np.cos(x) for x in xvar]
-	#print(yvar)
-	mplot.plot(xvar,yvar)
-	mplot.show()
+
 elif (int(sys.argv[1])==4):
 	yvar= [np.tan(x) for x in xvar]
 	#print(yvar)
-	mplot.plot(xvar,yvar)
-	mplot.show()	
+
+mplot.plot(xvar,yvar)
+mplot.show()	
 
