@@ -29,8 +29,8 @@ elif (int(sys.argv[1])==3):
 elif (int(sys.argv[1])==4):
 	yvar= [np.tan(x) for x in xvar]
 
-	mplot.plot(xvar,yvar)
-	mplot.xlim(-3.0,3.0)
-	mplot.show()
+mplot.plot(xvar,yvar)
+mplot.xlim(-3.0,3.0)
+mplot.show()
 
 
