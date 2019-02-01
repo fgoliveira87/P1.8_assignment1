@@ -18,6 +18,7 @@ if (int(sys.argv[1])==1):
 	yvar=xvar
 	#print(yvar)
 	mplot.plot(xvar,yvar)
+	mplot.xlim(-3.0,3.0)
 	mplot.show()
 else:
 	print("Not one")
