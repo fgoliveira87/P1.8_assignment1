@@ -3,10 +3,12 @@ import sys
 import numpy as np
 import matplotlib.pyplot as mplot
 
-if( len(sys.argv)!=2 or int(sys.argv[1])>1 or int(sys.argv[1])<1):):
+if( len(sys.argv)!=2 or int(sys.argv[1])>3 or int(sys.argv[1])<1):):
 	print("No input parameter...")
 	print("Usage:")
 	print("1 :: plot x")
+	print("2 :: plot x^2")
+	print("3 :: plot x^3")
 	sys.exit()
 	
 xvar=[];yvar=[]
