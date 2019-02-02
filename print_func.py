@@ -26,4 +26,5 @@ elif (int(sys.argv[1])==3):
 	yvar=[np.sqrt(abs(x)) for x in xvar]
 
 mplot.plot(xvar,yvar)
+mplot.xlim(-3.0,3.0)
 mplot.show()
