@@ -1,6 +1,7 @@
 #
 import sys
 import numpy as np
+import matplotlib.pyplot as mplot
 
 if( len(sys.argv)!=2):
 	print("No input parameter...")
@@ -13,4 +14,7 @@ for i in range (0,101):
 	
 if (int(sys.argv[1])==1):
 	yvar=xvar
-print (yvar)
+#print (yvar)
+
+mplot.plot(xvar,yvar)
+mplot.show()
