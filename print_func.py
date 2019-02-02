@@ -15,6 +15,11 @@ for i in range (0,101):
 if (int(sys.argv[1])==1):
 	yvar=xvar
 #print (yvar)
+elif (int(sys.argv[1])==2):
+	yvar= [x*x for x in xvar]
+
+elif (int(sys.argv[1])==3):
+	yvar= [x*x*x for x in xvar]
 
 mplot.plot(xvar,yvar)
 mplot.show()
