@@ -3,10 +3,13 @@ import sys
 import numpy as np
 import matplotlib.pyplot as mplot
 
-if( len(sys.argv)!=2 or int(sys.argv[1])>1 or int(sys.argv[1])<1):):
+if( len(sys.argv)!=2 or int(sys.argv[1])>4 or int(sys.argv[1])<1):
 	print("No input parameter...")
 	print("Usage:")
 	print("1 :: plot x")
+	print("2 :: plot sin(x)")
+	print("3 :: plot cos(x)")
+	print("4 :: plot tan(x)")
 	sys.exit()
 	
 xvar=[];yvar=[]
